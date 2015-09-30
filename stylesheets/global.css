@@ -1,0 +1,189 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/global.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 12, ../sass/global.scss */
+body {
+  padding: 20px;
+  background: #F5F5F5;
+}
+
+/* line 17, ../sass/global.scss */
+footer {
+  height: 100px;
+}
+
+/* line 21, ../sass/global.scss */
+.wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px;
+}
+
+/* line 29, ../sass/global.scss */
+input {
+  border-radius: 3px;
+  box-shadow: none;
+  border: 2px solid #ccc;
+  padding: 10px 14px;
+  margin: 10px 0;
+  min-width: 300px;
+}
+
+/* line 38, ../sass/global.scss */
+input[type=checkbox], input[type=radio] {
+  margin-right: 10px;
+}
+
+/* line 42, ../sass/global.scss */
+input[type=checkbox] + select,
+input[type=radio] + select {
+  display: none;
+}
+
+/* line 47, ../sass/global.scss */
+input[type=checkbox]:checked + select,
+input[type=radio]:checked + select {
+  display: inline-block;
+}
+
+/* line 52, ../sass/global.scss */
+label {
+  display: inline-block;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 10px 0 0;
+  color: #526067;
+}
+
+/* line 61, ../sass/global.scss */
+input[type=text], input[type=date], input[type=time], select, textarea {
+  background-color: #F5F8F9;
+  box-shadow: none;
+  padding: 14px;
+  font-size: 16px;
+  line-height: 24px;
+  border: 2px solid #DFE7E9;
+  border-radius: 3px;
+  margin: 10px 0;
+  width: 100%;
+  box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  transition: background-color .1s ease;
+}
+/* line 78, ../sass/global.scss */
+input[type=text]:focus, input[type=date]:focus, input[type=time]:focus, select:focus, textarea:focus {
+  border: 2px solid #528FCC;
+  background-color: #fff;
+}
+
+/* line 84, ../sass/global.scss */
+select {
+  cursor: pointer;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjcycHgiIGhlaWdodD0iNDdweCIgdmlld0JveD0iMCAwIDcyIDQ3IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggMy4zLjIgKDEyMDQzKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT7uoY48L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBza2V0Y2g6dHlwZT0iTVNQYWdlIj4KICAgICAgICA8cGF0aCBkPSJNNzEuMTIsMTMuMDggTDM4LDQ2LjEyIEMzNy40NjY2NjQsNDYuNzA2NjY5NiAzNi44MDAwMDQsNDcgMzYsNDcgQzM1LjE5OTk5Niw0NyAzNC41MzMzMzYsNDYuNzA2NjY5NiAzNCw0Ni4xMiBMMC44OCwxMy4wOCBDMC4yOTMzMzA0LDEyLjQ5MzMzMDQgMCwxMS44MDAwMDQgMCwxMSBDMCwxMC4xOTk5OTYgMC4yOTMzMzA0LDkuNTMzMzM2IDAuODgsOSBMOC4yNCwxLjY0IEM4LjgyNjY2OTYsMS4wNTMzMzA0IDkuNTE5OTk2LDAuNzYgMTAuMzIsMC43NiBDMTEuMTIwMDA0LDAuNzYgMTEuNzg2NjY0LDEuMDUzMzMwNCAxMi4zMiwxLjY0IEwzNiwyNS4zMiBMNTkuNjgsMS42NCBDNjAuMjY2NjY5NiwxLjA1MzMzMDQgNjAuOTMzMzI5NiwwLjc2IDYxLjY4LDAuNzYgQzYyLjQyNjY3MDQsMC43NiA2My4xMTk5OTY4LDEuMDUzMzMwNCA2My43NiwxLjY0IEw3MS4xMiw5IEM3MS43MDY2Njk2LDkuNTg2NjY5NiA3MiwxMC4yNTMzMjk2IDcyLDExIEM3MiwxMS43NDY2NzA0IDcxLjcwNjY2OTYsMTIuNDM5OTk2OCA3MS4xMiwxMy4wOCBMNzEuMTIsMTMuMDggWiIgaWQ9Iu6hjiIgZmlsbD0iIzAwMDAwMCIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+PC9wYXRoPgogICAgPC9nPgo8L3N2Zz4=");
+  background-position: calc(100% - 20px) center;
+  background-size: 16px;
+  background-repeat: no-repeat;
+}
+
+/* line 92, ../sass/global.scss */
+input[type=submit], input[type=button] {
+  background: #e74c3c;
+  border-radius: 3px;
+  margin: 20px 0;
+  padding: 14px;
+  font-size: 16px;
+  width: 100%;
+  border: 2px solid transparent;
+  color: #fff;
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+  transition: all .1s ease;
+  -webkit-appearance: none;
+}
+/* line 107, ../sass/global.scss */
+input[type=submit]:hover, input[type=button]:hover {
+  background: #f24331;
+}
+
+/* line 112, ../sass/global.scss */
+.radio {
+  margin-right: 20px;
+}
